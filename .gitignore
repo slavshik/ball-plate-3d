@@ -5,9 +5,7 @@
 /node_modules/
 /doc/
 /.idea/
-/bin/
-zip/
+dist/
 /coverage/
-yarn.lock
 tsconfig.tsbuildinfo
 .firebase/
