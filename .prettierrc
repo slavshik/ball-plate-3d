@@ -1,0 +1,23 @@
+{
+  "semi": true,
+  "trailingComma": "none",
+  "tabWidth": 4,
+  "bracketSpacing": false,
+  "arrowParens": "avoid",
+  "proseWrap": "never",
+  "printWidth": 100,
+  "overrides": [
+    {
+      "files": ["*.less"],
+      "options": {
+        "plugins": ["stylelint-prettier"],
+        "extends": "stylelint-config-standard",
+        "tabWidth": 2,
+        "rules": {
+          "indent": 2,
+          "prettier/prettier": true
+        }
+      }
+    }
+  ]
+}
